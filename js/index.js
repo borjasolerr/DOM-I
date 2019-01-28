@@ -45,6 +45,20 @@ document.querySelectorAll("nav a")[3].textContent = siteContent.nav["nav-item-4"
 document.querySelectorAll("nav a")[4].textContent = siteContent.nav["nav-item-5"];
 document.querySelectorAll("nav a")[5].textContent = siteContent.nav["nav-item-6"];
 
+//NEW CONTENT - NAVBAR
+let navItem1 = document.createElement("a");
+navItem1.textContent = "Blog";
+document.querySelector("nav").appendChild(navItem1);
+
+let navItem2 = document.createElement("a");
+navItem2.textContent = "Home";
+document.querySelector("nav").prepend(navItem2);
+
+//NEW COLOR GREEN - NAVBAR
+document.querySelectorAll("nav a").forEach(el => {
+  el.style.color = "green";
+});
+
 //HEADER - IMG
 let logo = document.getElementById("logo-img");
 logo.src = siteContent.nav["img-src"];
