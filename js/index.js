@@ -63,3 +63,24 @@ document.querySelectorAll(".text-content p")[1].textContent = "About content ele
 
 //MIDDLE IMG
 document.getElementById("middle-img").src = "/img/mid-page-accent.jpg";
+
+//SECTION BOTTOM-CONTENT
+document.querySelectorAll(".bottom-content .text-content h4")[0].textContent = "Services";
+document.querySelectorAll(".bottom-content .text-content p")[0].textContent = "Services content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
+
+document.querySelectorAll(".bottom-content .text-content h4")[1].textContent = "Product";
+document.querySelectorAll(".bottom-content .text-content p")[1].textContent = "Product content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
+
+document.querySelectorAll(".bottom-content .text-content h4")[2].textContent = "Vision";
+document.querySelectorAll(".bottom-content .text-content p")[2].textContent = "Vision content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
+
+//CONTACT
+document.querySelectorAll(".contact h4")[0].textContent = "Contact";
+let newline = "\r\n";
+document.querySelectorAll(".contact p")[0].style.whiteSpace = "pre";
+document.querySelectorAll(".contact p")[0].textContent = "123 Way 456 Street" + newline + "Somewhere, USA";
+
+document.querySelectorAll(".contact p")[1].textContent = "1 (888) 888-8888";
+document.querySelectorAll(".contact p")[2].textContent = "sales@greatidea.io";
+
+document.querySelectorAll("footer p")[0].textContent = "Copyright Great Idea! 2018";
